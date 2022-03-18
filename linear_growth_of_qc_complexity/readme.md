@@ -1,4 +1,4 @@
-# Intro
+# Abstract
 
 
 Quantifying quantum states' complexity is a key problem in various subfields of science,
@@ -20,8 +20,11 @@ https://www.youtube.com/watch?v=AklY6hfitYA
 
 # My Takeaway
 
-Backward lightcone - a "cone" of connections from a single qubit backward to all
-initial qubits. The lower bound of the complexity of a circuit is related
+Backward lightcone - a "cone" of connections, starting from from a single qubit
+moving backwards in time within a quantum circuit to all
+qubits that are inputs to 2-local unitary operators such that the outputs
+of the operators influence the starting qubit. There are diagrams in the talk / paper.
+The lower bound of the complexity of a circuit is related
 to the number of backward lightcones in a particular architecture
 
 ```
